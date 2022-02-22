@@ -1,0 +1,258 @@
+body{
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    background-color: green;
+}
+.menu>ul>li>ul
+{
+    position: absolute;
+    display: none;
+}
+.menu>ul>li
+{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a
+{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 50px;
+    line-height: 50px;
+    color: whitesmoke;
+}
+.menu>ul>li>a:hover
+{
+    color:skyblue ;
+}
+.menu>ul
+{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgb(52, 124, 109);
+    text-align: center;
+}
+.menu>ul>ul
+{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color:black;
+    box-shadow: 0 0 1px brown;
+    display: block;
+}
+.menu>ul>ul>a
+{
+    display: block;
+    line-height: 30px;
+    color: yellowgreen;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+    background-color: black;
+}
+.menu>ul>li:hover>ul
+{
+    display: block;
+    
+}
+.menu>ul>ul>a:hover
+{
+    background-color: yellowgreen;
+    color: yellowgreen;
+}
+.menucon{
+    background-color: goldenrod;
+    padding: 0px 15px;
+    list-style: none;
+    width: 150px;
+    text-align: center;
+    
+}
+.a>header{
+    /* background-image: url(IMG/hinh2.png); */
+    /* background-size: 100% 50%;
+    height: 0px;
+    padding-bottom: 25%; */
+    /* background-color: black; */
+    width: 100%;
+    height: 200px;
+    background-image: url(IMG/hinh5.PNG);
+    
+}
+.a>header>img{
+    width: 289px;
+    height: auto;
+    /* padding-bottom: 100px; */
+    /* padding:0 0 0 100px ; */
+    
+  
+}
+.a >article{
+
+    min-height: 500px;
+    width: 75%;
+    /* background-color: yellowgreen; */
+    float: left;
+    
+}
+/* article>iframe
+{
+    width: 75%;
+} */
+.a >aside{
+    min-height: 500px;
+    width: 25%;
+    background-color: white;
+    float: left;
+    /* top: 5px;
+    right: 5px; */
+    background-color: yellowgreen;
+}
+.vmenu{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow:  0 0 2px yellowgreen;
+    
+    
+    /* top: 5px;
+    right: 5px; */
+}
+.vmenu a{
+    background: url('IMG/hinh3.png.jpg') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px ;
+    list-style: none;
+}
+.vmenu a:hover{
+    background:url('IMG/hinh4.png.jpg')  no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    list-style: none;
+}
+iframe{
+    width: 100%;
+    min-height: 500px;
+}
+.top-right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 30px;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    box-shadow: 5px 5px 15px ;
+}
+.top-right>a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.top-right>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.a>footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+.l{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding:  100px;
+}
+.column{
+    width: 25%;
+    float: left;
+    /* height: 100px; */
+    text-align: center;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    margin: 8px;
+    text-align: center;
+}
+.san-pham .ten{
+    font-size: large;
+    font-variant: small-caps;
+    color: orangered;
+}
+.san-pham img{
+    max-width: 95%;
+}
+.san-pham .gia{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+.san-pham .gia del{
+    color: rgb(0, 0, 0);
+}
+.column
+{
+    width: 20%;
+    height: 100%;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color:rgb(103, 176, 235);
+    box-shadow:2px 2px 2px orange;
+}
+.column:hover
+{
+    box-shadow: 2px 2px 2px green;
+    background-color: yellowgreen;
+}
+.m{
+    width: 1350px;
+    /* background-image: url(IMG/hinh6.png); */
+    /* width: 75%; */
+    
+}
+/* .a{
+
+} */
+.h{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    
+}
+.h>iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 30%;
+}
